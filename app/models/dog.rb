@@ -1,5 +1,5 @@
 class Dog
-  attr_acessor: name, breed, age
+  attr_acessor :name, :breed, :age
 
   def initialize(name, breed, age)
     @name = name
